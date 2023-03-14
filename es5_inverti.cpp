@@ -85,7 +85,7 @@ void stampaMatriceTrasposta(int mat[][COLONNE])
     int rig = COLONNE;
     int indice=0;
 
-    for (int i = rig-1; i >=0 ; i--)
+    for (int i = 0; i < rig ; i++)
     {
         cout << indice << "| ";
         indice++;
@@ -95,6 +95,7 @@ void stampaMatriceTrasposta(int mat[][COLONNE])
         }
         cout << endl;
     }
+
 }
 
 int main()
